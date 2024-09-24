@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+
+<head>
+    <title>About Page</title>
+</head>
+
+<body>
+    <div id="content">
+        <div class="banner flex justify-center items-center">
+            <div class="text-center">
+                <h1 class="font-bold text-2xl">Smart Contact Manager</h1>
+                <p class="text-[1xl]">Since 2024 we are Started a web service for providing your contacts securly saved
+                    and managed
+                    contacts without any privacy leak.
+                    because our services is certified by the government there is free service we are provide our users
+                    without any difficulty
+                    and our web application provide high level security.
+
+                    Start Collecting yur contacts is very smarter way,We provide very efficient and
+                    smarter way of
+                    handling
+                    contacts.</p>
+
+                <a data-th-href="@{'/register'}" type="button"
+                    class="mt-3 focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 ">Get
+                    Started</a>
+            </div>
+        </div>
+        <script>
+            console.log("about page");
+        </script>
+        <script>
+            console.log("second about page script");
+        </script>
+</body>
+
+</html>
